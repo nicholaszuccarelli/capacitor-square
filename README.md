@@ -1,4 +1,4 @@
-# @nicholaszuccarelli/capacitor-square
+# @zuc0001/capacitor-square
 
 Integrate with Square Payments SDK
 
@@ -13,7 +13,7 @@ https://github.com/dolaned/capacitor-square
 
 Version 1.X is compatible with Capacitor 5.X
 ```bash
-npm install @nicholaszuccarelli/capacitor-square
+npm install @zuc0001/capacitor-square
 npx cap sync
 ```
 
@@ -24,7 +24,7 @@ App Initalisation - app.component.ts (Angular example)
 ```ts
 import { App } from "@capacitor/app";
 import { Platform } from "@ionic/angular";
-import { CapacitorSquare } from "@nicholaszuccarelli/capacitor-square";
+import { CapacitorSquare } from "@zuc0001/capacitor-square";
 
 export class AppComponent {
   constructor(private platform: Platform) {
@@ -53,7 +53,7 @@ export class AppComponent {
 
 Payment flow
 ```ts
-import { CapacitorSquare } from "@nicholaszuccarelli/capacitor-square";
+import { CapacitorSquare } from "@zuc0001/capacitor-square";
 
 //
 // Initalise the square plugin
@@ -161,7 +161,7 @@ handleIosResponse(options: { url: string; }) => any
 ### addListener(...)
 
 ```typescript
-addListener(eventName: 'transactionComplete', listenerFunc: TransactionCompletedListener) => Promise<PluginListenerHandle> & PluginListenerHandle
+addListener(eventName: 'transactionComplete', listenerFunc: TransactionCompletedListener) => any
 ```
 
 | Param              | Type                                                                                              |
@@ -177,7 +177,7 @@ addListener(eventName: 'transactionComplete', listenerFunc: TransactionCompleted
 ### addListener(...)
 
 ```typescript
-addListener(eventName: 'transactionFailed', listenerFunc: TransactionFailedListener) => Promise<PluginListenerHandle> & PluginListenerHandle
+addListener(eventName: 'transactionFailed', listenerFunc: TransactionFailedListener) => any
 ```
 
 | Param              | Type                                                |

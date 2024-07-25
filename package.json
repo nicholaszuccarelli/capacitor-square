@@ -1,6 +1,7 @@
 {
-  "name": "@nicholaszuccarelli/capacitor-square",
+  "name": "@zuc0001/capacitor-square",
   "version": "6.0.0",
+  "private": false,
   "description": "Integrate with Square Payments SDK for capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +12,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "DolanedCapacitorSquare.podspec"
+    "ZucCapacitorSquare.podspec"
   ],
   "contributors": [
     "Nicholas Zuccarelli",
