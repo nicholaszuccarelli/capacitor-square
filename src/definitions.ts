@@ -56,10 +56,10 @@ export interface CapacitorSquarePlugin {
   addListener(
     eventName: 'transactionComplete',
     listenerFunc: TransactionCompletedListener,
-  ): Promise<PluginListenerHandle> & PluginListenerHandle;
+  ): Promise<PluginListenerHandle>;
 
   addListener(
     eventName: 'transactionFailed',
     listenerFunc: TransactionFailedListener,
-  ): Promise<PluginListenerHandle> & PluginListenerHandle;
+  ): Promise<PluginListenerHandle>;
 }

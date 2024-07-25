@@ -1,16 +1,19 @@
-# @dolaned/capacitor-square
+# @nicholaszuccarelli/capacitor-square
 
 Integrate with Square Payments SDK
 
 | Package Version | Capacitor Version |
 |-----------------|-------------------|
-| 1.X             | 5.X               |
+| 6.X             | 6.X               |
+
+For older versions including Capacitor 5, please refer to:
+https://github.com/dolaned/capacitor-square
 
 ## Install
 
 Version 1.X is compatible with Capacitor 5.X
 ```bash
-npm install @dolaned/capacitor-square
+npm install @nicholaszuccarelli/capacitor-square
 npx cap sync
 ```
 
@@ -21,7 +24,7 @@ App Initalisation - app.component.ts (Angular example)
 ```ts
 import { App } from "@capacitor/app";
 import { Platform } from "@ionic/angular";
-import { CapacitorSquare } from "@dolaned/capacitor-square";
+import { CapacitorSquare } from "@nicholaszuccarelli/capacitor-square";
 
 export class AppComponent {
   constructor(private platform: Platform) {
@@ -50,7 +53,7 @@ export class AppComponent {
 
 Payment flow
 ```ts
-import { CapacitorSquare } from "@dolaned/capacitor-square";
+import { CapacitorSquare } from "@nicholaszuccarelli/capacitor-square";
 
 //
 // Initalise the square plugin
