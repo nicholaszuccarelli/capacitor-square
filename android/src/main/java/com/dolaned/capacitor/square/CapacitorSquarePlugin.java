@@ -41,7 +41,7 @@ public class CapacitorSquarePlugin extends Plugin {
 
         JSObject data = new JSObject();
         data.put("message", "set applicationId");
-        call.success(data);
+        call.resolve(data);
     }
 
     @PluginMethod()
@@ -160,7 +160,7 @@ public class CapacitorSquarePlugin extends Plugin {
                 resultData.put("clientTransactionId", success.clientTransactionId);
                 resultData.put("serverTransactionId", success.serverTransactionId);
                 notifyListeners("transactionComplete", resultData);
-                call.success();
+                call.resolve();
             } else {
                 // Handle expected errors
                 Intent data = result.getData();
