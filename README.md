@@ -4,6 +4,7 @@ Integrate with Square Payments SDK
 
 | Package Version | Capacitor Version |
 |-----------------|-------------------|
+| 7.X             | 7.X               |
 | 6.X             | 6.X               |
 
 For older versions including Capacitor 5, please refer to:

@@ -1,6 +1,6 @@
 {
   "name": "@zuc0001/capacitor-square",
-  "version": "6.0.1",
+  "version": "7.0.0",
   "private": false,
   "description": "Integrate with Square Payments SDK for capacitor",
   "main": "dist/plugin.cjs.js",
@@ -50,10 +50,10 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^6.0.0",
-    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
     "@capacitor/docgen": "^0.0.10",
-    "@capacitor/ios": "^6.0.0",
+    "@capacitor/ios": "^7.0.0",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^2.0.0",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -66,7 +66,7 @@
     "typescript": "~4.1.5"
   },
   "peerDependencies": {
-    "@capacitor/core": "^6.0.0"
+    "@capacitor/core": "^7.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
